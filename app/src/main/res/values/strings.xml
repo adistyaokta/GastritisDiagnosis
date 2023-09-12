@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Gastritis Diagnosis</string>
+
+    <string-array name="spinner_value">
+        <item>Pilih tingkat keyakinan</item>
+        <item>0.2 - Tidak terlalu yakin</item>
+        <item>0.4 - Sedikit yakin</item>
+        <item>0.6 - Cukup yakin</item>
+        <item>0.8 - Yakin</item>
+        <item>1 - Sangat yakin</item>
+    </string-array>
+</resources>

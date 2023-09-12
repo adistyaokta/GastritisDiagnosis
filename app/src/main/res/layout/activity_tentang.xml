@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbars="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="TENTANG APLIKASI"
+            android:textAlignment="center"
+            android:textColor="#EEEEEE"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <com.bluejamesbond.text.DocumentView
+            android:id="@+id/dv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/bgteal"
+            android:fontFamily="@font/poppins_medium"
+            app:documentView_insetPadding="15dp"
+            app:documentView_text="Gastritis Diagnosis adalah aplikasi untuk melakukan diagnosis awal tentang penyakit lambung. Lakukan diagnosis dengan cara memilih gejala yang ditampilkan kemudian tentukan nilai kepercayaan anda pada gejala tersebut"
+            app:documentView_textAlignment="justified"
+            app:documentView_textColor="#FEFEFE"
+            app:documentView_textSize="12sp"
+            app:documentView_textTypefacePath="fonts/poppins_medium.ttf" />
+
+        <com.bluejamesbond.text.DocumentView
+            android:id="@+id/dv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/bgteal"
+            android:fontFamily="@font/poppins_medium"
+            app:documentView_insetPadding="15dp"
+            app:documentView_text="Aplikasi ini dikembangkan sebagai salah satu persyaratan untuk mencapai gelar sarjana S1 Teknik Informatika Universitas 17 Agustus 1945 Surabaya"
+            app:documentView_textAlignment="justified"
+            app:documentView_textColor="#FEFEFE"
+            app:documentView_textSize="12sp"
+            app:documentView_textTypefacePath="fonts/poppins_medium.ttf" />
+
+        <com.bluejamesbond.text.DocumentView
+            android:id="@+id/dv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/bgteal"
+            android:fontFamily="@font/poppins_medium"
+            app:documentView_insetPadding="15dp"
+            app:documentView_text="Dikembangkan oleh Adistya Oktaviano, dengan bimbingan dan arahan oleh dosen pembimbing Bapak Andrey Kartika Widhy Hapantenda, S.Kom., M.Kom"
+            app:documentView_textAlignment="justified"
+            app:documentView_textColor="#FEFEFE"
+            app:documentView_textSize="12sp"
+            app:documentView_textTypefacePath="fonts/poppins_medium.ttf" />
+
+    </LinearLayout>
+</ScrollView>

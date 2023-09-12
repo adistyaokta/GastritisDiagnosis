@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RuleG01">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/qgejala"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bgteal"
+            android:fontFamily="@font/poppins_medium"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#F3F3F3"
+            app:layout_constraintBottom_toTopOf="@+id/btnYa"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btnYa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="24dp"
+            android:gravity="center_vertical"
+
+            android:text="Ya"
+            android:textAlignment="center"
+            android:textColor="#004D40"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/qyakin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/qgejala"
+            tools:ignore="MissingConstraints,RtlCompat" />
+
+        <TextView
+            android:id="@+id/qyakin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bgteal"
+            android:fontFamily="@font/poppins_medium"
+            android:padding="10dp"
+            android:text="Seberapa yakin anda mengalami gejala tersebut?"
+            android:textAlignment="center"
+            android:textColor="#F3F3F3"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/spinnerQyakin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnYa"
+            tools:ignore="MissingConstraints" />
+
+
+        <Spinner
+            android:id="@+id/spinnerQyakin"
+            style="@style/Widget.AppCompat.Spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/bgteal"
+            android:dropDownSelector="@drawable/border"
+            android:fontFamily="@font/poppins_medium"
+            android:popupBackground="@drawable/bgteal"
+            android:spinnerMode="dropdown"
+            android:splitMotionEvents="false"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/btnTidak"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/qyakin" />
+
+        <Button
+            android:id="@+id/btnTidak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="24dp"
+            android:text="Tidak"
+            android:textAlignment="center"
+            android:textColor="#004D40"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerQyakin"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GastritisDiagnosis"
+        tools:targetApi="31">
+        <activity
+            android:name=".HasilDiagnosa"
+            android:exported="false" />
+        <activity
+            android:name=".RuleG01"
+            android:exported="false" />
+        <activity
+            android:name=".RuleG02"
+            android:exported="false" />
+        <activity
+            android:name=".RuleG03"
+            android:exported="false" />
+        <activity
+            android:name=".RuleG04"
+            android:exported="false" />
+        <activity
+            android:name=".RuleG05"
+            android:exported="false" />
+        <activity
+            android:name=".RuleG06"
+            android:exported="false" />
+        <activity
+            android:name=".RuleG07"
+            android:exported="false" />
+        <activity
+            android:name=".RuleG08"
+            android:exported="false" />
+        <activity
+            android:name=".RuleG09"
+            android:exported="false" />
+        <activity
+            android:name=".RuleG10"
+            android:exported="false" />
+        <activity
+            android:name=".RuleG11"
+            android:exported="false" />
+        <activity
+            android:name=".RuleG12"
+            android:exported="false" />
+        <activity
+            android:name=".RuleG13"
+            android:exported="false" />
+        <activity
+            android:name=".RuleG14"
+            android:exported="false" />
+        <activity
+            android:name=".RuleG15"
+            android:exported="false" />
+        <activity
+            android:name=".RuleG16"
+            android:exported="false" />
+        <activity
+            android:name=".RuleG17"
+            android:exported="false" />
+        <activity
+            android:name=".RuleG18"
+            android:exported="false" />
+        <activity
+            android:name=".RuleG19"
+            android:exported="false" />
+        <activity
+            android:name=".RuleG20"
+            android:exported="false" />
+        <activity
+            android:name=".DetailPenyakit"
+            android:exported="false" />
+        <activity
+            android:name=".Tentang"
+            android:exported="false" />
+        <activity
+            android:name=".DaftarPenyakit"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
